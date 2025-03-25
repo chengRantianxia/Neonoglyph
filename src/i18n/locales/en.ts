@@ -1,0 +1,82 @@
+export default {
+  common: {
+    add: "Add",
+    edit: "Edit",
+    delete: "Delete",
+    cancel: "Cancel",
+    confirm: "Confirm",
+    save: "Save",
+    loading: "Loading...",
+    success: "Operation successful",
+    error: "Operation failed",
+  },
+  header: {
+    search: "Search bookmarks...",
+    settings: "Settings",
+    importExport: "Import/Export",
+  },
+  bookmark: {
+    title: "Title",
+    url: "URL",
+    description: "Description",
+    category: "Category",
+    tags: "Tags",
+    addTag: "Add Tag",
+    addBookmark: "Add Bookmark",
+    editBookmark: "Edit Bookmark",
+    deleteBookmark: "Delete Bookmark",
+    deleteConfirm: "Are you sure you want to delete this bookmark?",
+    noBookmarks: "No bookmarks",
+    invalidUrl: "Please enter a valid URL",
+  },
+  category: {
+    name: "Name",
+    description: "Description",
+    addCategory: "Add Category",
+    editCategory: "Edit Category",
+    deleteCategory: "Delete Category",
+    deleteConfirm:
+      "Are you sure you want to delete this category? You cannot delete a category that contains bookmarks.",
+    noCategories: "No categories, please add one first",
+  },
+  settings: {
+    title: "Settings",
+    appearance: {
+      title: "Appearance",
+      darkMode: "Dark Mode",
+      language: "Language",
+    },
+    data: {
+      title: "Data Management",
+      autoBackup: "Auto Backup",
+      backupFrequency: "Backup Frequency",
+      daily: "Daily",
+      weekly: "Weekly",
+      monthly: "Monthly",
+    },
+  },
+  importExport: {
+    title: "Import/Export",
+    export: {
+      title: "Export Data",
+      description:
+        "Export all bookmarks and categories as a JSON file for backup or migration.",
+      button: "Export Data",
+      success: "Export successful",
+      error: "Export failed",
+    },
+    import: {
+      title: "Import Data",
+      description: "Import bookmarks and categories from a JSON file.",
+      button: "Import Data",
+      success: "Import successful",
+      error: "Import failed",
+      invalidFormat: "Invalid data format",
+    },
+    chrome: {
+      title: "Import Chrome Bookmarks",
+      description: "Import bookmarks from Chrome browser.",
+      button: "Import Chrome Bookmarks",
+    },
+  },
+};
